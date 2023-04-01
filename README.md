@@ -1,2 +1,2 @@
-使用方法：
-输入title和city后从www.totaljobs.com抓取信息并保存为json文件到本地
+Usage:
+When running the program and entering the title and city, information will be scraped from www.totaljobs.com and saved as a JSON file locally.
