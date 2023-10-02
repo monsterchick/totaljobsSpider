@@ -35,6 +35,7 @@ def add_index():
 def save_to_json_file():
     json_object = json.dumps(dictionary, indent=4)    # convert type dict to str
     path = os.getcwd() + "/download.json"
+    print(path)
     with open(path, "w") as fp:
         fp.write(json_object)
     print("save successfully")
